@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="java_ee_8_microservices:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_ee_8_microservices_ear_exploded.ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="java_ee_8_microservices/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="java_ee_8_microservices:war exploded" />
+      </element>
+      <element id="directory" name="ejb.jar">
+        <element id="artifact" artifact-name="java_ee_8_microservices:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
